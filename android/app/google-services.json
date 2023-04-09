@@ -1,0 +1,154 @@
+{
+  "project_info": {
+    "project_number": "349800794751",
+    "project_id": "marques-construcao-bd0c6",
+    "storage_bucket": "marques-construcao-bd0c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349800794751:android:23809ae7613654096ecd4a",
+        "android_client_info": {
+          "package_name": "com.example.adm_panel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349800794751-g787jof48tpm5gm7f72ja85nd7qpf4cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCubRSDb3fC05ftsO6582-5hAvk4P4yQnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349800794751-g787jof48tpm5gm7f72ja85nd7qpf4cl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "349800794751-30evd9imkbckhs50kne302cs5qm0cp5k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.admPanelMarquesConstrucao"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349800794751:android:622ae9bec2031c196ecd4a",
+        "android_client_info": {
+          "package_name": "com.example.adm_panel_marques_construcao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349800794751-g787jof48tpm5gm7f72ja85nd7qpf4cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCubRSDb3fC05ftsO6582-5hAvk4P4yQnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349800794751-g787jof48tpm5gm7f72ja85nd7qpf4cl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "349800794751-30evd9imkbckhs50kne302cs5qm0cp5k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.admPanelMarquesConstrucao"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349800794751:android:8e22b8c7851f9cf36ecd4a",
+        "android_client_info": {
+          "package_name": "com.example.marques_construcao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349800794751-g787jof48tpm5gm7f72ja85nd7qpf4cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCubRSDb3fC05ftsO6582-5hAvk4P4yQnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349800794751-g787jof48tpm5gm7f72ja85nd7qpf4cl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "349800794751-30evd9imkbckhs50kne302cs5qm0cp5k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.admPanelMarquesConstrucao"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349800794751:android:b902e8b1fce710116ecd4a",
+        "android_client_info": {
+          "package_name": "com.example.vendor_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349800794751-g787jof48tpm5gm7f72ja85nd7qpf4cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCubRSDb3fC05ftsO6582-5hAvk4P4yQnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349800794751-g787jof48tpm5gm7f72ja85nd7qpf4cl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "349800794751-30evd9imkbckhs50kne302cs5qm0cp5k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.admPanelMarquesConstrucao"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
