@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
         SystemUiOverlayStyle(statusBarColor: Colors.transparent));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const VendorAuthScreen(),
+      home: VendorAuthScreen(),
     );
   }
 }

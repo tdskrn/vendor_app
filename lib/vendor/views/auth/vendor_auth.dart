@@ -3,13 +3,13 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterfire_ui/auth.dart';
 import 'package:vendor_app/utils/keys.dart';
+
 import 'package:vendor_app/vendor/views/auth/vendor_register_screen.dart';
 
 class VendorAuthScreen extends StatelessWidget {
-  const VendorAuthScreen({super.key});
-
   @override
   Widget build(BuildContext context) {
+    KeysApp _key = KeysApp();
     return StreamBuilder<User?>(
       stream: FirebaseAuth.instance.authStateChanges(),
       builder: (context, snapshot) {
@@ -17,8 +17,7 @@ class VendorAuthScreen extends StatelessWidget {
         if (!snapshot.hasData) {
           return SignInScreen(providerConfigs: [
             EmailProviderConfiguration(),
-            GoogleProviderConfiguration(
-                clientId: '1:349800794751:android:b902e8b1fce710116ecd4a'),
+            GoogleProviderConfiguration(clientId: _key.id),
             PhoneProviderConfiguration(),
           ]);
         }
