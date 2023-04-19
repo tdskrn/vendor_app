@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:vendor_app/vendor/views/auth/vendor_auth.dart';
 
 import 'firebase_options.dart';
@@ -28,6 +29,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: VendorAuthScreen(),
+      builder: EasyLoading.init(),
     );
   }
 }

@@ -5,6 +5,7 @@ import 'package:flutterfire_ui/auth.dart';
 import 'package:vendor_app/utils/keys.dart';
 
 import 'package:vendor_app/vendor/views/auth/vendor_register_screen.dart';
+import 'package:vendor_app/vendor/views/screens/landind_screen.dart';
 
 class VendorAuthScreen extends StatelessWidget {
   @override
@@ -23,7 +24,7 @@ class VendorAuthScreen extends StatelessWidget {
         }
 
         // Render your application if authenticated
-        return VendorRegistrationScreen();
+        return LandingScreen();
       },
     );
   }

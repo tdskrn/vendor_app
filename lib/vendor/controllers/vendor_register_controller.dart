@@ -64,7 +64,7 @@ class VendorController {
           image != null) {
         // SAVE DATA TO CLOUD FIRESTORE
 
-        String _uploadImage = await _uploadVendorImageToStorage(image);
+        String _storeImage = await _uploadVendorImageToStorage(image);
 
         await _firestore.collection('vendors').doc(_auth.currentUser!.uid).set({
           'bussinessName': bussinessName,
@@ -75,7 +75,7 @@ class VendorController {
           'cityValue': cityValue,
           'taxRegistered': taxRegistered,
           'taxNumber': taxNumber,
-          'image': _uploadImage,
+          'storeImage': _storeImage,
           'approved': false,
         });
       } else {
