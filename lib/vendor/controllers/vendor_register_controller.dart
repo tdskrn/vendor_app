@@ -77,6 +77,7 @@ class VendorController {
           'taxNumber': taxNumber,
           'storeImage': _storeImage,
           'approved': false,
+          'vendorId': _auth.currentUser!.uid,
         });
       } else {
         res = 'Please fields must not be empty';
